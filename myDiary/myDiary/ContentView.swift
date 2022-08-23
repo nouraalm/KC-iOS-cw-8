@@ -17,7 +17,7 @@ struct ContentView: View {
                 Color.pink.opacity(0.5)
                     .ignoresSafeArea()
                 VStack{
-                    Text("Choose your fav color")
+                    Text("Choose your favourite color")
                         .font(.title)
                     HStack {
                         ForEach(Colors, id:\.self){
@@ -52,7 +52,7 @@ struct ContentView: View {
 
                 }
                     }
-            .navigationTitle("Dear Diary")
+            .navigationTitle("My Diary")
         }
     
     }

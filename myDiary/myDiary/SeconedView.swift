@@ -2,7 +2,7 @@
 //  SeconedView.swift
 //  myDiary
 //
-//  Created by Nono. on 22/08/2022.
+//  Created by Noura. on 22/08/2022.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct SeconedView: View {
     var body: some View {
         ZStack{
             Color.green
-                myC.ignoresSafeArea()
+            myC.ignoresSafeArea()
             VStack{
                 Text(myS)
                 
